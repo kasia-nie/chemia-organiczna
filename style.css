@@ -1,0 +1,179 @@
+   body {
+	  line-height: 1.8;
+      position: relative; 
+	  background-color:#d8edf3;
+	  font-family: Montserrat, sans-serif;
+   }
+
+   .affix {
+      top:0;
+      width: 100%;
+      z-index: 9999 !important;
+   }
+
+	.thumbnail:hover {
+	box-shadow: 5px 0px 40px rgba(0,0,0, .2);
+	}
+
+	h1{
+	  letter-spacing: 4px;
+	  padding-bottom: 40px;
+	}
+	
+	p{
+		font-size: 20px
+	}
+	
+   .navbar {
+      margin-bottom: 0;
+      z-index: 9999;
+      border: 0;
+      font-size: 28px !important;
+      line-height: 1.42857143 !important;
+      letter-spacing: 4px;
+      border-radius: 0;
+    }
+
+	.navbar li a, .navbar .navbar-brand {
+	  color: black !important;
+	  font-weight: bold;
+	}
+
+	.navbar-nav li a:hover, .navbar-nav li.active a {
+	  color: #d8edf3 !important;
+	  background-color: #76bdd5 !important;
+	}
+
+	.navbar-default .navbar-toggle {
+	  font-family: Montserrat, sans-serif;
+	  border-color: transparent;
+	  color: #fff !important;
+	}
+
+	.container-fluid {
+	  font: 400 15px/1.8 Lato, sans-serif;
+      padding-top: 40px;
+      padding-bottom: 40px;
+	  text-align:center;
+      background-color: #76bdd5;
+	  margin-bottom: 0px;
+	  font-family: Montserrat, sans-serif;}
+	  
+	.affix ~ .container-fluid {
+	  position: relative;
+	  top: 50px;
+	}
+  
+	#About {padding-top:80px; padding-bottom: 80px; padding-left: 20%; padding-right: 20%; background-color: #d8edf3;}
+	#Care {padding-top:80px; padding-bottom: 80px; padding-left: 20%; padding-right: 20%; background-color: #F0FFFF;}
+	#Courses {padding-top:80px; padding-bottom: 80px; padding-left: 20%; padding-right: 20%; background-color: #d8edf3;}
+	#Team {padding-top:80px; padding-bottom: 80px; padding-left: 20%; padding-right: 20%; background-color: #F0FFFF;}
+	#Talk {padding-top:80px; padding-bottom: 80px; padding-left: 20%; padding-right: 20%; background-color: #d8edf3;}
+	#Kontakt {padding-top:80px; padding-bottom: 80px; padding-left: 20%; padding-right: 20%; background-color: #F0FFFF;}
+ 
+	.carousel-inner img {
+      width: 100%;
+	  margin-bottom: 0px;
+    }
+
+	#more {display: none;}
+	
+	.jumbotron{
+	  background-color:#76bdd5;
+	  margin-bottom: 0px;
+	  padding-top:20px; padding-bottom: 20px;
+	  letter-spacing: 4px;
+	}
+	
+    * {box-sizing: border-box;}
+	
+	.checked {
+	  color: #76bdd5;
+	}
+	
+	.person {
+	  border: 10px solid transparent;
+	  margin-bottom: 25px;
+	  width: 80%;
+	  height: 80%;
+	}
+	
+	.thumbnail{
+	  text-align:center;
+	}
+	
+    .carousel-inner img {
+	  display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+      margin: 0px;
+	  padding:0px;
+    }
+  
+	*, *:before, *:after {
+	  box-sizing: inherit;
+	}
+
+	.col-sm-4{
+	  display: flex;
+      flex-wrap: wrap;
+      width: 50%;
+      margin: 0px;
+	  padding:0px;
+	}
+
+	.nav-tabs{
+      padding-left: 30%;
+	  border-color: black;
+	}
+	.nav-tabs li a:hover{
+      background-color: #76bdd5 !important;
+	}
+	.nav-tabs li.active{
+      border-color: black;
+	}
+	.nav-tabs li.active a{
+      background-color: #d8edf3 !important;
+	  color:black;
+	}
+
+	.column {
+	  float: left;
+	  width: 30%;
+	  margin-bottom: 16px;
+	  padding: 8px;
+	}
+
+	@media screen and (max-width: 650px) {
+	  .column {
+	    width: 100%;
+        display: block;text-align:left;
+    }}
+
+	.card {
+	  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	}
+
+	.title {
+	  color: grey;
+	}
+
+	.button {
+      border: none;
+	  outline: 0;
+	  display: inline-block;
+	  padding: 8px;
+	  color: white;
+	  background-color: #76bdd5;
+	  text-align: center;
+	  cursor: pointer;
+	  width: 95%;
+	}
+
+	.button:hover {
+	  background-color: #555;
+	}
+	
+	html {
+	  scroll-behavior: smooth;
+	}
